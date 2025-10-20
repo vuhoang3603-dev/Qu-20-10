@@ -113,7 +113,6 @@
       position: absolute;
       width: 20px;
       height: 20px;
-      background: url('file:///C:/Users/Usuario/Downloads/Lovepik_com-832340894-Hand-painted%20flowers%20cute%20cartoon%20rose%20flower%20group%20vector%20mater.png') no-repeat center/contain;
       pointer-events: none;
       z-index: 1;
       opacity: 0.8;
@@ -136,38 +135,32 @@
 </head>
 <body>
 
-  <!-- Nhạc nền chạy suốt -->
-  <audio id="bgMusic" src="file:///C:/Users/Usuario/Downloads/ssstik.io_1760913549321.mp3" autoplay loop></audio>
-
-  <!-- Container ảnh ban đầu -->
-  <div class="gift-container">
-    <img id="gift" src="file:///C:/Users/Usuario/Downloads/5126972d-0554-4bf9-b614-6a685b3a167c.jfif" alt="Tặng nè">
+<div class="gift-container">
+    <img id="gift" src="Hình ảnh/aaaaaaaaaaaaa.png" alt="Tặng nè">
     <div class="gift-text">Tặng nè</div>
-  </div>
+ 
+  </div id="div" src="Hình ảnh/Lovepik_com-832340894-Hand-painted flowers cute cartoon rose flower group vector mater" alt="hoa bay" >
 
-  <!-- Bó hoa -->
-  <img id="flowers" src="file:///C:/Users/Usuario/Downloads/%E2%80%94Pngtree%E2%80%94pink%20bouquet%20of%20flowers%20hand_3864205.png" alt="Bó hoa">
+  <img id="flowers" src="Hình ảnh/—Pngtree—pink bouquet of flowers hand_3864205.png" alt="Bó hoa">
 
-  <!-- Chữ chúc mừng -->
   <div id="message">Chúc mừng ngày 20/10 vui vẻ 💖</div>
 
-  <!-- Lá thư -->
-  <img id="letter" src="file:///C:/Users/Usuario/Downloads/%E2%80%94Pngtree%E2%80%94love%20letter%20in%20minimalism%20and_6083833.png" alt="Lá thư">
+  <img id="letter" src="Hình ảnh/—Pngtree—love letter in minimalism and_6083833.png" alt="Lá thư">
 
-  <!-- Nội dung thư -->
-  <div id="note">💌 Chúc Cvy một ngày 20/10 thật nhiều niềm vui, nụ cười và hạnh phúc! (tiền phí 500k) 🌷</div>
+  <div id="note">💌 Chúc Cvy một ngày 20/10 thật nhiều niềm vui, nụ cười và hạnh phúc! 🌷</div>
 
-  <!-- Âm thanh vui -->
-  <audio id="soundHappy" src="https://www.soundjay.com/buttons/sounds/button-3.mp3" preload="auto"></audio>
+  <audio id="soundHappy" src="  ssstik.io_1760913549321" preload="auto"></audio>
 
   <script>
     const gift = document.getElementById("gift");
+    const petal = document.getElementById("div")
     const giftText = document.querySelector(".gift-text");
     const flowers = document.getElementById("flowers");
     const message = document.getElementById("message");
     const letter = document.getElementById("letter");
     const note = document.getElementById("note");
     const sound = document.getElementById("soundHappy");
+    
 
     // Tạo hoa bay
     function createPetals(count) {
